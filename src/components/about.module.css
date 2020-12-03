@@ -1,0 +1,43 @@
+.about {
+    display: block;
+    position: relative;
+    padding: 7rem 0 10rem 8rem;
+    background-color: #FFF878;
+    
+}
+
+.subHeader {
+    max-width: 12rem;
+    transform: translateY(10%);
+}
+
+.title {
+    font-size: 4rem;
+}
+
+.aboutCopy {
+    max-width: 60%;
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+.landingImgBottom {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(-30%, 0);
+    z-index: 0;
+    width: 550px;
+    margin-bottom: 0;
+}
+
+.titleDot {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+.dot {
+    width: 15px;
+    fill: white;
+}

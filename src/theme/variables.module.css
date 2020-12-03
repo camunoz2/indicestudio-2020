@@ -1,0 +1,26 @@
+/* ======== Colors ========== */
+.indiceBlue {
+    color: #3300C4;
+}
+
+.indiceYellow {
+    color: #FFF878;
+}
+
+.indiceBlack {
+    color: #222222;
+}
+
+
+/* ======== Typo ========== */
+.fontDisplay {
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.fontBody {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: normal;
+}

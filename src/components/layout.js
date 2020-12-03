@@ -1,19 +1,21 @@
 import React from "react"
-import "./layout.css"
+import "./layout.module.css"
+import "fontsource-bebas-neue"
+import "fontsource-playfair-display"
+
+import Container from "../components/container"
 
 const Layout = ({children}) => {
 
   return (
-  <>
+  <Container>
     <main>{children}</main>
     <footer style={{
       marginTop: `2rem`
     }}>
-      © {new Date().getFullYear()}, Built with
-      {` `}
-      <a href="https://www.gatsbyjs.com">Gatsby</a>
+      Indicestudio © {new Date().getFullYear()}
     </footer>
-  </>
+  </Container>
   )
 }
 

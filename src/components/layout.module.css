@@ -1,9 +1,40 @@
+/* For horizontal bars */
+html, body {
+  overflow-x: hidden;
+}
+/* For horizontal bars */
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #FFF878;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #3300C4;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #4c18db;
+}
+
+
+
+
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   font: 112.5%/1.45em georgia, serif, sans-serif;
   box-sizing: border-box;
   overflow-y: scroll;
+
 }
 body {
   margin: 0;
@@ -118,7 +149,7 @@ img {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 0;
 }
 svg:not(:root) {
   overflow: hidden;
