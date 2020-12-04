@@ -18,7 +18,6 @@
 .buttonBorder {
     display: absolute;
     border: 2px solid black;
-    transform: translate(-5%, -110%);
     width: 8rem;
     height: 4rem;
     background-color: transparent;

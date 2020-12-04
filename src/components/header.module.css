@@ -24,7 +24,7 @@
     position: absolute;
     top: 0;
     right: 0;
-    transform: translate(-150px, -150px);
+    transform: translateX(-150px);
     z-index: 0;
 }
 
