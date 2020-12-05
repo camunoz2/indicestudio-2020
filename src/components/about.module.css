@@ -73,6 +73,9 @@
 }
 
 @media(max-width: 730px) {
+    .about {
+        padding: 7rem 2rem;
+    }
     .landingImgBottom {
         display: none;
     }
