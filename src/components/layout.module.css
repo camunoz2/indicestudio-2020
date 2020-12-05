@@ -1,9 +1,3 @@
-/* For horizontal bars */
-html, body {
-  overflow-x: hidden;
-}
-/* For horizontal bars */
-
 
 /* width */
 ::-webkit-scrollbar {

@@ -64,6 +64,8 @@
     padding-left: 60%;
 }
 
+/* Media Queries */
+
 @media (max-width: 1180px) {
     .header {
         padding: 4rem;
