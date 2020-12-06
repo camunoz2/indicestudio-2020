@@ -3,6 +3,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Header from "../components/header"
 import About from "../components/about"
+import Portfolio from "../components/portfolio"
 import {useViewportScroll} from "framer-motion"
 
 
@@ -15,6 +16,7 @@ const IndexPage = () => {
       <SEO title="Inicio" />
       <Header/>
       <About scrollY={scrollYProgress}/>
+      <Portfolio/>
     </Layout>
   )
   }

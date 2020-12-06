@@ -2,7 +2,7 @@ import React from "react"
 import {motion, useTransform} from "framer-motion"
 import styles from "./about.module.css"
 import variables from "../theme/variables.module.css"
-import SvgTitle from "../components/svg_title"
+import SvgTitle from "./icons/svg_title"
 import aboutImg from "../images/about01.png"
 
 const About = ({scrollY}) => {
@@ -10,8 +10,8 @@ const About = ({scrollY}) => {
     const scaleAnim = useTransform(scrollY, [0, 0.5, 1], [50, 35, 1])
 
     return(
-        <div className={styles.about}>
-            <div className={styles.aboutHeader}>
+        <div className={styles.section}>
+            <div className={styles.header}>
                 <motion.div className={styles.subHeader}>
                     <SvgTitle/>
                 </motion.div>
@@ -23,7 +23,7 @@ const About = ({scrollY}) => {
 
                 </div>
             </div>
-            <div className={`${styles.aboutCopy} ${variables.fontBody}`}>
+            <div className={`${styles.copy} ${variables.fontBody}`}>
                 <p>
                 Tenemos super claro que eres un emprendedor, y que necesitas vender y tener más clientes, pero primero te debes hacer esta pregunta ¿Eres feliz con lo que haces? Si la respuesta es sí, entonces llámanos, por que nos encanta trabajar con gente motivada.
                 </p>

@@ -3,6 +3,7 @@ import "./layout.module.css"
 import containerStyles from "./container.module.css"
 import "fontsource-bebas-neue"
 import "fontsource-playfair-display"
+import "fontsource-playfair-display/900-normal.css"
 
 const Layout = ({children}) => {
 

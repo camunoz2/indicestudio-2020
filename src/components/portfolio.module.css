@@ -1,0 +1,21 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    padding: 7rem 8rem;
+}
+.header {
+    position: relative;
+}
+.subHeader {
+    position: relative;
+    max-width: 12rem;
+    transform: translateY(40%);
+    z-index: 10;
+}
+.title {
+    font-size: 4rem;
+    z-index: 10;
+}
+  
