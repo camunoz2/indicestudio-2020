@@ -7,7 +7,7 @@ import aboutImg from "../images/about01.png"
 
 const About = ({scrollY}) => {
 
-    const scaleAnim = useTransform(scrollY, [0, 0.5, 1], [50, 35, 1])
+    const scaleAnim = useTransform(scrollY, [0, 0.2, 0.3], [50, 40, 1])
 
     return(
         <div className={styles.section}>
