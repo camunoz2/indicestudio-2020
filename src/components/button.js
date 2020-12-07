@@ -22,13 +22,13 @@ const buttonTopFramer = {
 
 const buttonBoderFramer = {
     before: {
-        y: -10,
-        x: -20,
+        y: 0,
+        x: 0,
         opacity: 0,
         scale: 0.8
     },
     after: {
-        y: 0,
+        y: -10,
         x: -10,
         opacity: 1,
         scale: 1,

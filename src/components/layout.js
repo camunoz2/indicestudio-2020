@@ -1,4 +1,5 @@
 import React from "react"
+import SvgIndiceLogo from "./icons/svg_indice_logo"
 import "./layout.module.css"
 import containerStyles from "./container.module.css"
 import "fontsource-bebas-neue"
@@ -10,10 +11,10 @@ const Layout = ({children}) => {
   return (
   <div className={containerStyles.container}>
     <main>{children}</main>
-    <footer style={{
-      marginTop: `2rem`
-    }}>
-      Indicestudio © {new Date().getFullYear()}
+    <footer style={{padding:"6rem"}}>
+      <div style={{width:250, margin:"0 auto"}}>
+        <SvgIndiceLogo/>
+      </div>
     </footer>
   </div>
   )

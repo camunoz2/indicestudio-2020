@@ -1,0 +1,33 @@
+.inputField {
+    position: relative;
+    margin-bottom: 2rem;
+}
+.label {
+    position: absolute;
+    left: 0.9rem;
+    bottom: 0;
+    font-size: 0.7rem;
+    color: #3300C4;
+}
+
+.cssInput {
+    position: relative;
+    border-color:#cccccc; 
+    padding:1rem; 
+    font-size:22px;
+    border-style:hidden;
+    width: 600px;
+    height: 3.5rem;
+} 
+.cssInput:focus {
+    outline:none;
+}
+
+.cssInputBorder {
+    position: absolute;
+    width: 600px;
+    height: 100%;
+    top: -0.5rem;
+    left: -0.5rem;
+    border: 2px solid black;
+}
