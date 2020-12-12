@@ -1,9 +1,9 @@
 .section {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-start;
     position: relative;
-    padding: 3rem 10rem 2rem 0;
+    padding: 7rem 8rem;
     background-color: #FFF878;
 }
 
@@ -33,8 +33,7 @@
 .landingImgBottom {
     position: absolute;
     bottom: 0;
-    left: 20rem;
-    transform: translate(-30%, 0);
+    right: 0;
     z-index: 0;
     width: 800px;
     margin-bottom: 0;
@@ -74,16 +73,13 @@
 @media(max-width: 930px) {
     .landingImgBottom {
         transform: translate(-10%, 0);
-        width: 1000px;
+        width: 450px;
     }
 }
 
 @media(max-width: 730px) {
     .section {
         padding: 7rem 2rem;
-    }
-    .landingImgBottom {
-        display: none;
     }
     .copy {
         font-size: 1.3rem;
