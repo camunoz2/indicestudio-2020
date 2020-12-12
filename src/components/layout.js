@@ -11,8 +11,8 @@ const Layout = ({children}) => {
   return (
   <div className={containerStyles.container}>
     <main>{children}</main>
-    <footer style={{padding:"6rem"}}>
-      <div style={{width:250, margin:"0 auto"}}>
+    <footer>
+      <div style={{maxWidth:250, margin:"0 auto"}}>
         <SvgIndiceLogo/>
       </div>
     </footer>

@@ -24,7 +24,6 @@
     position: absolute;
     top: 0;
     right: 0;
-    transform: translateX(-150px);
     z-index: 0;
 }
 
@@ -32,7 +31,6 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    transform: translate(150px, 250px);
     z-index: 0;
     width: 550px;
 }
@@ -65,6 +63,25 @@
 }
 
 /* Media Queries */
+@media(min-width: 1600px) {
+    .header {
+        max-width: 1180px;
+        margin: 0 auto;
+        padding: 4rem 0;
+    }
+    .landingImgTop {
+        transform: translate(-300px, -100px) !important;
+    }
+    .landingImgBottom {
+        transform: translate(100px, 150px) !important;
+        width: 700px;
+    }
+    .homeCta {
+        padding-top: 10rem;
+    }
+}
+
+
 
 @media (max-width: 1180px) {
     .header {
@@ -120,7 +137,6 @@
         display: block;
         bottom: 0;
         width: 400px;
-        transform: translateY(-10%);
     }
 
     .landingImgBottom {

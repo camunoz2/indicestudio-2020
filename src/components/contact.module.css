@@ -27,6 +27,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .landingImgBottom {
@@ -53,9 +54,14 @@
 
 /* Media Queries */
 @media(max-width: 1300px) {
+    .section {
+        align-items: flex-start;
+        padding: 7rem 4rem;
+    }
     .landingImgBottom {
         transform: translate(-10%, 0);
     }
+
 }
 @media(max-width: 1220px) {
     .copy {
@@ -67,7 +73,7 @@
 
 @media(max-width: 930px) {
     .landingImgBottom {
-        transform: translate(30%, 0);
+        transform: translate(-10%, 0);
         width: 1000px;
     }
 }

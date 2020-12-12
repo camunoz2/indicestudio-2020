@@ -6,7 +6,7 @@ const InputField = ({name}) => {
     <div className={styles.inputField}>
         <div className={styles.cssInputBorder} />
         <input id="name" className={styles.cssInput} />
-    <label className={styles.label}  for="name" >{name}</label>
+    <label className={styles.label}  htmlFor="name" >{name}</label>
     </div>
     )
 }

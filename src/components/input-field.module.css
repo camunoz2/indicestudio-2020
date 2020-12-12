@@ -31,3 +31,12 @@
     left: -0.5rem;
     border: 2px solid black;
 }
+
+@media(max-width: 640px) {
+    .cssInput {
+        width: 100%;
+    }
+    .cssInputBorder {
+        width: 100%;
+    }
+}

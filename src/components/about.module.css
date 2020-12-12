@@ -68,7 +68,7 @@
 @media(max-width: 930px) {
     .landingImgBottom {
         transform: translate(30%, 0);
-        width: 1000px;
+        width: 800px;
     }
 }
 
