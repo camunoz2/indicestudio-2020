@@ -3,7 +3,7 @@ import {useInView} from "react-intersection-observer"
 import CardLabel from "./card-label"
 import styles from "./folio-card.module.css"
 import SvgArrow from "./icons/svg_arrow"
-import handFolio from "../images/handFolio01.png"
+import handFolio from "../images/handfolio01.png"
 import {motion, useAnimation} from "framer-motion"
 
 
