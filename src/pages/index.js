@@ -1,10 +1,10 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Header from "../components/header"
-import About from "../components/about"
-import Portfolio from "../components/portfolio"
-import Contact from "../components/contact"
+import Header from "../components/homepage/header"
+import About from "../components/homepage/about"
+import Portfolio from "../components/homepage/portfolio"
+import Contact from "../components/homepage/contact"
 import {useViewportScroll} from "framer-motion"
 
 

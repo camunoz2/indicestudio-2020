@@ -1,8 +1,8 @@
 import React from "react"
-import SvgPortfolioText from "./icons/svg_portfolio_text"
+import SvgPortfolioText from "../icons/svg_portfolio_text"
 import styles from "./portfolio.module.css"
-import variables from "../theme/variables.module.css"
-import FolioCard from "../components/folio-card.js"
+import variables from "../../theme/variables.module.css"
+import FolioCard from "../elements/folio-card.js"
 
 
 const Portfolio = () => {

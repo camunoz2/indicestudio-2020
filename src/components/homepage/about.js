@@ -1,9 +1,9 @@
 import React from "react"
 import {motion, useTransform} from "framer-motion"
 import styles from "./about.module.css"
-import variables from "../theme/variables.module.css"
-import SvgTitle from "./icons/svg_title"
-import aboutImg from "../images/about01.png"
+import variables from "../../theme/variables.module.css"
+import SvgTitle from "../icons/svg_title"
+import aboutImg from "../../images/about01.png"
 
 const About = ({scrollY}) => {
 

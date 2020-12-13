@@ -1,10 +1,11 @@
 import React, {useEffect} from "react"
 import {useInView} from "react-intersection-observer"
+import {motion, useAnimation} from "framer-motion"
+
 import CardLabel from "./card-label"
 import styles from "./folio-card.module.css"
-import SvgArrow from "./icons/svg_arrow"
-import handFolio from "../images/handfolio01.png"
-import {motion, useAnimation} from "framer-motion"
+import SvgArrow from "../icons/svg_arrow"
+import handFolio from "../../images/handfolio01.png"
 
 
 const FolioCard = () => {
@@ -39,12 +40,17 @@ const FolioCard = () => {
         after: {
             opacity: 1,
             x: 0,
+        },
+        hover: {
+            backgroundColor:"#FFF878",
+            cursor:"pointer",
+            color:"#000000",
+            x: 5
         }
     }
 
     return (
         <motion.div ref={ref} variants={container} initial="before" animate={controls} className={styles.card}>
-            {/* <div className={styles.cardBorder} /> */}
             <motion.h2 variants={item} className={styles.clientTitle}>Ronald Tassara - Enero 2020</motion.h2>
             <motion.div variants={item} className={styles.titleContainer}>
                 <h3 className={styles.workTitle}>Ninhue</h3>
@@ -57,10 +63,10 @@ const FolioCard = () => {
             <motion.p variants={item} className={styles.textCopy}>
             El city branding es una área poco explorada del diseño, y en este proyecto realizamos unas cuantas ilustraciones para identificar a Ninhue como una localidad turística y cultural, donde la gente disfruta de la cultura  y de la aventura. Su identificación con Arturo Pratt y con su museo y las chupallas elaboradas por los artesanos de la zona, podría ser un nicho turístico a considerar.
             </motion.p>
-            <motion.div variants={item} className={styles.button}>
+            <motion.div variants={item} whileHover="hover" className={styles.button}>
                 <p>Leer caso</p>
                 <div style={{width: 15}}>
-                    <SvgArrow/>
+                    <SvgArrow fill="#3300C4" stroke="#fff"/>
                 </div>
             </motion.div>
             <motion.div variants={item} className={styles.image}>

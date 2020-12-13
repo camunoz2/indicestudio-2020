@@ -1,10 +1,10 @@
 import React from "react"
 import styles from "./contact.module.css"
-import variables from "../theme/variables.module.css"
-import SvgHola from "./icons/svg_hola"
-import image from "../images/contact01.png"
-import InputField from "./input-field"
-import Button from "./button"
+import variables from "../../theme/variables.module.css"
+import SvgHola from "../icons/svg_hola"
+import image from "../../images/contact01.png"
+import InputField from "../elements/input-field"
+import Button from "../elements/button"
 
 const Contact = () => {
     return(

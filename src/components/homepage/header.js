@@ -1,13 +1,12 @@
 import React from "react"
 import { motion } from "framer-motion"
 
-import variables from "../theme/variables.module.css"
-import styles from "../components/header.module.css"
-import imgLanding01 from "../images/landing01.png"
-import imgLanding02 from "../images/landing02.png"
-// import SvgLine from "../components/icons/svg_line"
-import Button from "../components/button"
-import IndiceLogo from './icons/indice_logo'
+import variables from "../../theme/variables.module.css"
+import styles from "./header.module.css"
+import imgLanding01 from "../../images/landing01.png"
+import imgLanding02 from "../../images/landing02.png"
+import Button from "../elements/button"
+import IndiceLogo from '../icons/indice_logo'
 
   
 const Header = () => {

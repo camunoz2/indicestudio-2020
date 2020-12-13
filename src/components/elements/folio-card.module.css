@@ -30,13 +30,14 @@
     flex-direction: column;
     margin-bottom: 2rem;
 }
+
 .workTitle {
     font-family: 'Playfair Display', serif;
     font-size: 2.2rem;
-    font-weight: 900;
     color: white;
     margin-bottom: 0;
 }
+
 .labelContainer {
     display: flex;
     justify-content: flex-start;
@@ -54,15 +55,16 @@
 
 .button {
     display: inline-flex;
+    border: 1px solid #ffffff;
     justify-content: flex-start;
     justify-items: center;
     font-family: 'Playfair Display', serif;
     font-size: 1rem;
     line-height: 1rem;
-    color: black;
+    color: #ffffff;
     margin: 2rem 0;
     padding: 0.7rem 1rem;
-    background-color: #FFF878;
+    background-color: transparent;
     border-radius: 10px;
 }
 
