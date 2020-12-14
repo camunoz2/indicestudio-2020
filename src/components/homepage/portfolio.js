@@ -18,7 +18,6 @@ const Portfolio = () => {
                 </div>
             </div>
             <FolioCard/>
-            <FolioCard/>
 
         </div>
 

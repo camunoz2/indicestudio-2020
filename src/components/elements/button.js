@@ -46,7 +46,7 @@ const Button = ({content}) => {
         <div className={style.button}>
             <motion.div variants={buttonBoderFramer} initial="before" animate="after" className={style.buttonBorder} >
             </motion.div>
-            <motion.div whileHover={{backgroundColor:"#FFF878", color: "black", border: "1px solid #000000", cursor:"pointer"}}  variants={buttonTopFramer} initial="before" animate="after" className={style.buttonTop} >
+            <motion.div whileHover={{backgroundColor:"#FFF878", color: "#222222", border: "1px solid #222222", cursor:"pointer"}}  variants={buttonTopFramer} initial="before" animate="after" className={style.buttonTop} >
                 {content}
             </motion.div>
         </div>

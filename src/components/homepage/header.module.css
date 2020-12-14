@@ -4,22 +4,6 @@
     padding: 4rem 8rem 0 8rem;
 }
 
-.indiceLogo {
-    display: flex;
-    justify-content: flex-start;
-    align-items: baseline;
-    align-content: space-around;
-}
-
-.indiceIcon {
- max-width: 1.45rem;
- margin-right: 1rem;
-}
-
-.relative {
-    position: relative;
-}
-
 .landingImgTop {
     position: absolute;
     top: 0;
@@ -40,7 +24,7 @@
     font-family: 'Playfair Display', serif;
     font-size: 3rem;
     line-height: 3.5rem;
-    padding-top: 4rem;
+    padding-top: 7.5rem;
     width: 60%;
     z-index: 10;
 }
@@ -64,17 +48,20 @@
 
 /* Media Queries */
 @media(min-width: 1600px) {
+    .headerText {
+        font-size: 4rem;
+        line-height: 4rem;
+    }
     .header {
-        max-width: 1180px;
         margin: 0 auto;
-        padding: 4rem 0;
+        padding: 4rem 10rem;
     }
     .landingImgTop {
         transform: translate(-300px, -100px) !important;
     }
     .landingImgBottom {
         transform: translate(100px, 150px) !important;
-        width: 700px;
+        width: 500px;
     }
     .homeCta {
         padding-top: 10rem;
@@ -151,6 +138,6 @@
         transform: translateY(40%);
     }
     .headerText {
-        padding-top: 6rem;
+        padding-top: 10rem;
     }
 }

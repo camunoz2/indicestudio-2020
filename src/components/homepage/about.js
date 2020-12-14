@@ -25,7 +25,7 @@ const About = ({scrollY}) => {
             </div>
             <div className={`${styles.copy} ${variables.fontBody}`}>
                 <p>
-                Tenemos super claro que eres un emprendedor, y que necesitas vender y tener más clientes, pero primero te debes hacer esta pregunta ¿Eres feliz con lo que haces? Si la respuesta es sí, entonces llámanos, por que nos encanta trabajar con gente motivada.
+                Tenemos super claro que eres un emprendedor, y que necesitas vender y tener más clientes, pero primero te debes hacer esta pregunta ¿Eres feliz con lo que haces? Si la respuesta es sí, entonces llámanos, por que <span style={{fontWeight: 900}}>nos encanta trabajar con gente motivada</span>.
                 </p>
             </div>
             <img className={styles.landingImgBottom} src={aboutImg} alt="mujer feliz con su computador"  />

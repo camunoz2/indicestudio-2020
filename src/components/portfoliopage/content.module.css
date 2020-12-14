@@ -1,0 +1,78 @@
+.container {
+    display: flex;
+    padding: 0 7rem;
+    margin: 0 auto;
+}
+
+.aside {
+    margin-right: 6rem;
+    min-width: 30%;
+    margin-top: 4rem;
+}
+
+.asideTitle {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.line {
+    width: 50%;
+    height: 2px;
+    background-color: #3300C4;
+    margin-bottom: 1rem;
+}
+
+.par{
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: normal; 
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.list {
+    margin: 0;
+}
+.listItem {
+    font-family: 'Playfair Display', serif;
+    list-style: none;
+    margin: 0;
+}
+.title {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4rem;
+    line-height: 3.4rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    font-weight: 400;
+}
+
+.cite {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 4rem;
+    line-height: 3.7rem;
+    margin-top: 10rem;
+    margin-bottom: 12rem;
+}
+
+@media(max-width: 1366px) {
+    .cite {
+        font-size: 3rem;
+        line-height: 3.4rem;
+    }
+}
+
+@media(max-width: 1080px) {
+    .container {
+        flex-direction: column;
+        padding: 0 5rem;
+    }
+}
+
+@media(max-width: 800px) {
+    .container {
+        padding: 0 2rem;
+    }
+}

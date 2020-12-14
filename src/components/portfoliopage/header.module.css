@@ -1,0 +1,36 @@
+.header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 580px;
+    background-color: #3300C4;
+    padding: 4rem 7rem;
+    overflow: hidden;
+}
+
+
+
+.image {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 400px;
+}
+
+.subtitle {
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-weight: 400;
+    font-size: 1.5em;
+
+}
+.back a{
+    text-decoration: none;
+}
+.back h4{
+    color: white;
+    font-weight: 400;
+    font-size: 1em;
+}

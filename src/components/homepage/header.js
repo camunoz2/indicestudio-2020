@@ -1,39 +1,14 @@
 import React from "react"
 import { motion } from "framer-motion"
 
-import variables from "../../theme/variables.module.css"
 import styles from "./header.module.css"
 import imgLanding01 from "../../images/landing01.png"
 import imgLanding02 from "../../images/landing02.png"
 import Button from "../elements/button"
-import IndiceLogo from '../icons/indice_logo'
+import Indicestudio from "../elements/indicestudio"
 
   
 const Header = () => {
-
-    let logoFramer = {
-      before: {
-        opacity: 0,
-      },
-      after: {
-        opacity: 1,
-        transition: {
-          staggerChildren: 0.5
-        }
-      }
-    }
-    
-    const logoItemFramer = {
-      before: {
-        opacity: 0,
-        y: -10
-      },
-      after: {
-        opacity: 1,
-        y: 0
-      }
-    }
-    
     const letterVariants = {
         before: {
           opacity: 0,
@@ -103,17 +78,11 @@ const Header = () => {
 
     return(
         <div className={styles.header}>
-            <motion.div variants={logoFramer} initial="before" animate="after" className={`${styles.indiceLogo} ${styles.relative}`}>
-                <motion.div variants={logoItemFramer} className={styles.indiceIcon}>
-                    <IndiceLogo />
-                </motion.div>
-                <motion.h1 variants={logoItemFramer} className={`${variables.fontDisplay} ${variables.indiceBlue}`}>Indicestudio</motion.h1>
-            </motion.div>
-            {/* <div className={styles.line}>
-                <SvgLine/>
-            </div> */}
+
+            <Indicestudio fill="#3300C4" />
             <motion.img variants={imageUp} initial="before" animate="after" className={styles.landingImgBottom} src={imgLanding02} alt="mano sosteniendo un velular hacia arriba sacando una foto" />
             <motion.img variants={imageDown} initial="before" animate="after" className={styles.landingImgTop} src={imgLanding01} alt="indicestudio celular en mano al reves" />
+            
             <motion.p
                 className={styles.headerText}
                 variants={letterVariants}

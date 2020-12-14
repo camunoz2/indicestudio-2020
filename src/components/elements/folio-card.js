@@ -1,4 +1,5 @@
 import React, {useEffect} from "react"
+import {Link} from "gatsby"
 import {useInView} from "react-intersection-observer"
 import {motion, useAnimation} from "framer-motion"
 
@@ -63,12 +64,15 @@ const FolioCard = () => {
             <motion.p variants={item} className={styles.textCopy}>
             El city branding es una área poco explorada del diseño, y en este proyecto realizamos unas cuantas ilustraciones para identificar a Ninhue como una localidad turística y cultural, donde la gente disfruta de la cultura  y de la aventura. Su identificación con Arturo Pratt y con su museo y las chupallas elaboradas por los artesanos de la zona, podría ser un nicho turístico a considerar.
             </motion.p>
-            <motion.div variants={item} whileHover="hover" className={styles.button}>
-                <p>Leer caso</p>
-                <div style={{width: 15}}>
-                    <SvgArrow fill="#3300C4" stroke="#fff"/>
-                </div>
-            </motion.div>
+            <Link to="/casos/ninhue">
+                <motion.div variants={item} whileHover="hover" className={styles.button}>
+                    <p>Leer caso</p>
+                    <div style={{width: 15}}>
+                        <SvgArrow fill="#3300C4" stroke="#fff"/>
+                    </div>
+                </motion.div>
+            
+            </Link>
             <motion.div variants={item} className={styles.image}>
                 <img src={handFolio} alt="ninhue"/>
             </motion.div>
