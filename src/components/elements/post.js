@@ -6,7 +6,7 @@ import styles from "./post.module.css"
 const Post = () => {
     return(
         <div className={styles.card}>
-        <img src={cardImg} alt="imagepost"/>
+        <div className={styles.cardImg} style={{backgroundImage:`url(${cardImg})`}}/>
         <div className={styles.cardText}>
             <h2>Diseño de interfaces web</h2>
             <p>Trabajamos con una compañia de periódicos que vende avisos clasificados en su rediseño del sitio web.</p>
